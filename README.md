@@ -16,7 +16,7 @@ You will need [Node.js](http://nodejs.org), [Grunt](http://gruntjs.com/) and [Bo
 Use the src folder. The development version will be in the demo folder.
 
 ## Template Structure
-
+```
 dat boilerplate/
 ├-- src/
 |		├-- html/
@@ -30,3 +30,4 @@ dat boilerplate/
 ├-- tasks/
 ├-- demo/
 
+```
