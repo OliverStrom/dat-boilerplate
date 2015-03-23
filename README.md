@@ -1,22 +1,32 @@
-# GIMS Test Template
+# Dat Boilerplate
 
-This is a test template for GIMS. 
+For you basic boilerplate needs. 
 
 ## Getting started
 
-In root folder run:
+You will need [Node.js](http://nodejs.org), [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/). Make sure they are installed. 
 
-$ npm install
+1. Clone this.
+2. Run `npm install`, which will install Grunt and plugins.
+3. Go to the /src folder and run `bower install` which will install Bower components.
+4. Run `grunt` from the root folder for development. 
 
-This will install node modules for Grunt to work.
+## How to use Dat Boilerplate
 
-In src folder run:
-
-$ bower install
+Use the src folder. The development version will be in the demo folder.
 
 ## Template Structure
 
-Folder and file structure here
-
-## Developing
+dat boilerplate/
+├-- src/
+|		├-- html/
+|		├-- scss/
+|		├-- js/
+|		├-- js/
+|		├-- bower.json
+|
+├ gruntfile.js
+├ package.json
+├-- tasks/
+├-- demo/
 
