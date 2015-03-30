@@ -30,6 +30,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.registerTask('build', ['copy:dev', 'sass:dev']);
-  grunt.registerTask('default', ['build', 'watch']);
+  grunt.registerTask('default', ['build', 'browserSync', 'watch']);
   grunt.registerTask('prod', ['sass:prod', 'concat:prod', 'copy:prod', 'uglify:prod']); // don't use this
+  grunt.registerTask('watcher', ['build', 'watch']);
 };

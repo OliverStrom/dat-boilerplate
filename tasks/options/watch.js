@@ -1,33 +1,30 @@
 module.exports = {
-	options: {
-		livereload: true
-	},
-	
-	grunt: { 
-		files: ['Gruntfile.js'] 
-	},
-  	
+  options: {
+    livereload: true
+  },
+
+  grunt: { 
+    files: ['Gruntfile.js'] 
+  },
+    
   sass: {
     files: 'src/scss/*.scss',
-    tasks: ['sass:dev'],
-    options: { livereload: true }
+    tasks: ['sass:dev']
   },
 
   html: {
     files: ['src/html/*.html'],
-    tasks: ['copy:watchHtml'],
-    options: { livereload: true }
+    tasks: ['copy:watchHtml']
   },
 
   img: {
     files: ['src/img/*'],
-    tasks: ['copy:watchImg'],
-    options: { livereload: true }
+    tasks: ['copy:watchImg']
   },
 
   scripts: {
     files: 'src/js/*.js',
-    tasks: ['copy:watchJs'],
-    options: { livereload: true }
+    tasks: ['copy:watchJs']
   }
+
 }
