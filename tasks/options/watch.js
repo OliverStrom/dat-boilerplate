@@ -19,6 +19,12 @@ module.exports = {
     options: { livereload: true }
   },
 
+  img: {
+    files: ['src/img/*'],
+    tasks: ['copy:watchImg'],
+    options: { livereload: true }
+  },
+
   scripts: {
     files: 'src/js/*.js',
     tasks: ['copy:watchJs'],

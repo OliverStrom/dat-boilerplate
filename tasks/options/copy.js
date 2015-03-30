@@ -20,5 +20,11 @@ module.exports = {
     files: [
       {expand: true, flatten: true, src: ['src/html/*'], dest: 'demo/', filter: 'isFile'}
     ]
+  },
+
+  watchImg: {
+    files: [
+      {expand: true, flatten: true, src: ['src/img/*'], dest: 'demo/img', filter: 'isFile'}
+    ]
   }
 }
