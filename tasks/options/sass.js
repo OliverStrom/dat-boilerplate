@@ -1,13 +1,16 @@
 module.exports = {
   options: {
-    includePaths: ['src/bower_components/bourbon/app/assets/stylesheets']
+    includePaths: [
+      'src/bower_components/bourbon/app/assets/stylesheets',
+      'src/bower_components/foundation/scss/foundation'
+    ]
   },
   dev: {
     options: {
       outputStyle: 'uncompressed'
     },
    	files: {
-      'demo/css/app.css': 'src/scss/app.scss'
+      'src/css/app.css': 'src/scss/app.scss'
     }        
   },
   prod: {

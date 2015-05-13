@@ -1,5 +1,5 @@
 module.exports = {
-  dev: {
+  prod: {
     files: [
       {expand: true, flatten: true, src: ['src/bower_components/modernizr/modernizr.js'], dest: 'demo/js/', filter: 'isFile'},
       {expand: true, flatten: true, src: ['src/bower_components/jquery/dist/*'], dest: 'demo/js/', filter: 'isFile'},

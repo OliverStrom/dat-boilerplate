@@ -11,20 +11,10 @@ module.exports = {
     files: 'src/scss/*.scss',
     tasks: ['sass:dev']
   },
-
-  html: {
-    files: ['src/html/*.html'],
-    tasks: ['copy:watchHtml']
-  },
-
-  img: {
-    files: ['src/img/*'],
-    tasks: ['copy:watchImg']
-  },
-
+/*
   scripts: {
-    files: 'src/js/*.js',
-    tasks: ['copy:watchJs']
+    files: 'src/js/*',
+    tasks: ['browserify']
   }
-
+*/
 }

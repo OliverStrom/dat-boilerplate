@@ -1,15 +1,15 @@
 module.exports = {
-	    bsFiles: {
-	        src : [
-	        	'demo/css/*.css',
-	        	'demo/*.html',
-	        	'demo/js/*.js'
-	        ]
-	    },
-	    options: {
-	    		watchTask: true,
-	        server: {
-	            baseDir: "./demo"
-	        }
+	bsFiles: {
+	    src : [
+	    	'src/css/*.css',
+	    	'src/*.html',
+	    	'src/js/*.js'
+	    ]
+	},
+	options: {
+			watchTask: true,
+	    server: {
+	        baseDir: "./src"
 	    }
+	}
 }
