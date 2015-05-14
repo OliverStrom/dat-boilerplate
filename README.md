@@ -4,7 +4,7 @@ For you basic boilerplate needs.
 
 ## Getting started
 
-You will need [Node.js](http://nodejs.org), [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/). Make sure they are installed. 
+You will need [Node.js](http://nodejs.org), [Gulp](http://gulpjs.com/) and [Bower](http://bower.io/). Make sure they are installed. 
 
 1. Clone this.
 2. Run `npm install`, which will install Grunt and plugins.
