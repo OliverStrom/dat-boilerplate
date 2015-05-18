@@ -1,0 +1,113 @@
+
+/* olivers retarded css */
+
+/* video background */
+
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(../video/back-picture.jpg) no-repeat;
+background-size: cover;
+}
+
+/* logo */
+.logo {
+	width:100%;
+	height:100px;
+	opacity: 1;
+	background: url(../img/main-logo.svg) no-repeat;
+	background-position: center;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+}
+
+/* pattern */
+.container {
+	width:100%;
+	height:100%;
+	background: url(../img/test-pattern.svg);
+	background-position: fixed;
+	background-size: 0.4%;
+	opacity: 0.6;
+}
+
+/* media queries Gjorde det såhär för tillfället eftersom jag lackar scss kunskaper*/
+
+// Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { 
+.logo {
+ 	background-size: 60%;
+ 	height:300px;
+ }
+  .container {
+	background-size: 1%;
+}
+	} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+.logo {
+ 	background-size: 40%;
+ 	height:350px;
+ }
+ .container {
+	background-size: 0.4%;
+}
+ } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+
+ } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+.logo {
+ 	background-size: 25%;
+ 	height:300px;
+ }
+ } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { 
+
+	} /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+.logo {
+ 	background-size: 20%;
+ 	height:300px;
+ }
+.container {
+	background-size: 0.3%;
+}
+
+ } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) {
+
+.logo {
+ 	background-size: 20%;
+ 	height:300px;
+ }
+ .container {
+	background-size: 0.3%;
+}
+
+ } /* min-width 1921px, xxlarge screens */
